@@ -48,11 +48,10 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     padding: 40px;
+    align-items: center;
 }
 .contatofooter {
-    padding-top: 30px;
     width: 30%;
-    color: white;
     text-align: center;
 }
 .logofooter{
