@@ -6,16 +6,17 @@
 }
 
 .inicial {
-    width: 960px;
+    border: 2px solid;   
+    width: 1240px;
     margin: 0 auto;
 
 }
 
-.titulo1 {
+.inicial .titulo1 {
 text-align: center;
 padding: 50px 0;
 font-weight: 800;
-font-size: x-large;
+font-size: xx-large;
 }
 
 .inicial .titulo2 {
@@ -27,13 +28,8 @@ padding-bottom: 25px;
     display: flex;
     background: floralwhite;
     min-height: 200px;
+    padding: 15px;
     font-size: larger;
-    margin-bottom: 25px;
-}
-
-.parag p {
-    margin: 20px;
-    padding-left: 20px;
 }
 
 .parag p:nth-child(2){
@@ -44,59 +40,8 @@ padding-bottom: 25px;
 }
 
 .secundaria {
-    width: 960px;
+    border: 2px solid;   
+    width: 1240px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 2 1 300px;
-    background: ghostwhite;
-    margin-top: 45px;
-}
 
-.secundaria .titulo2{
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.subtit p {
-text-align: center;
-margin-bottom: 25px;
-}
-
-.secundaria li {
-    margin-bottom: 25px;
-    text-align: center;
-
-}
-
-.invest {
-    width: 960px;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-.invest .titulo2 {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.invest img {
-    margin-bottom: 25px;
-}
-
-.depoi1 {
-    width: 960px;
-    margin: 0 auto;
-    display: flex;
-    margin-bottom: 25px;
-}
-
-.depoi-titulo2 {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.depoi p{
-    margin: 20px;
 }
