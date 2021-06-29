@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    height: 23vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(106, 79, 204), rgba(106, 79, 204, 0.8));
+}
+ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+li img {
+    border-radius: 60px;
+    height: 17vh;
+}
+ul li a{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.barradepesquisa input {
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    color: grey;
+}
+.carousel-item img{
+    height: 70vh;
+}
+.franquia{
+    text-align: center;
+    margin: 5vh 5vw 5vh 5vw;
+}
+.franquia h2{
+    margin-bottom: 5vh;
+}
+.franq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imagem img{
+    width: 25vw;
+    position: relative;
+    left: -1vw;
+    border: 1px solid purple;
+}
+.text{
+    width: 35vw;
+    text-align: justify;
+}
+.text a{
+    text-decoration: none;
+    color: purple;
+    background-color: white;
+    border: 1px solid purple;
+    padding: 1vh;
+}
+.text a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: violet;
+    border: 1px solid purple;
+    padding: 1vh;
+    transition: 0.5s;
+}
+.mixes{
+    text-align: center;
+}
+.mix{
+    padding: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix img{
+    height: 40vh;
+    margin: -15vh 3vw 0 3vw;
+    z-index: 0;
+
+}
+.top{
+    width: 40vh;
+    background-color: white;
+    color: purple;
+    position: relative;
+    top: -22vh;
+    left: 3vw;
+    z-index: 1;
+    text-align: center;
+}
+.rodape{
+    height: 18vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(106, 79, 204, 0.8), rgba(106, 79, 204, 1));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contatofooter {
+    margin-top: 4vh;
+    width: 33%;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+.logofooter{
+    width: 30%;
+}
+.logofooter img {
+    height: 16vh;
+    border-radius: 80px;
+}
+.sociaisfooter {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.sociaisfooter {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+}
+.sociaisfooter a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1vw;
+}
+.sociaisfooter a img{
+    height: 20px;
+}

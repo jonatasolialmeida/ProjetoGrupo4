@@ -1,0 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.prodtexto {
+    background-image: url(../img/download.jfif);
+    background-color: linear-gradient(rgb(106, 79, 204, 1),
+     rgba(106, 79, 204, 0.5));
+}
+h1 {
+    
+    text-align: center;
+}
+.prod1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.prod2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.prod2 img{
+    width: 300px;
+    
+}

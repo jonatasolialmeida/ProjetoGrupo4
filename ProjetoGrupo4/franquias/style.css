@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+
+}
+
+.inicial {
+    border: 2px solid;   
+    width: 1240px;
+    margin: 0 auto;
+
+}
+
+.inicial .titulo1 {
+text-align: center;
+padding: 50px 0;
+font-weight: 800;
+font-size: xx-large;
+}
+
+.inicial .titulo2 {
+text-align: center;
+padding-bottom: 25px;
+}
+
+.parag {
+    display: flex;
+    background: floralwhite;
+    min-height: 200px;
+    padding: 15px;
+    font-size: larger;
+}
+
+.parag p:nth-child(2){
+    border-left: 4px solid;
+}
+.parag p:nth-child(3){
+    border-left: 4px solid;
+}
+
+.secundaria {
+    border: 2px solid;   
+    width: 1240px;
+    margin: 0 auto;
+
+}
