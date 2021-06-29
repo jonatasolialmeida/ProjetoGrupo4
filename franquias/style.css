@@ -6,8 +6,7 @@
 }
 
 .inicial {
-    border: 2px solid;   
-    width: 1240px;
+    width: 960px;
     margin: 0 auto;
 
 }
@@ -30,6 +29,7 @@ padding-bottom: 25px;
     min-height: 200px;
     padding: 15px;
     font-size: larger;
+    margin-bottom: 25px;
 }
 
 .parag p:nth-child(2){
@@ -40,8 +40,51 @@ padding-bottom: 25px;
 }
 
 .secundaria {
-    border: 2px solid;   
-    width: 1240px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 2 1 300px;
+}
+
+.secundaria .titulo2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.subtit p {
+text-align: center;
+margin-bottom: 25px;
+}
+
+.secundaria li {
+    margin-bottom: 25px;
+}
+
+.invest {
+    width: 960px;
     margin: 0 auto;
 
 }
+
+.invest .titulo2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.invest img {
+    margin-bottom: 25px;
+}
+
+.depoi1 {
+    width: 960px;
+    margin: 0 auto;
+display: flex;
+}
+
+.depoi-titulo2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
