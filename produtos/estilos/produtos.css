@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: #820182;
+    
 }
 body {
     background-image: url(../img/banner1.jpeg);
@@ -22,6 +23,8 @@ main {
     margin:0 auto;
     width: 50%;
     padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
 }
 hr {
     background-color: #820182;
@@ -36,13 +39,15 @@ h1 {
     text-align: center;
     height: 30px;
     padding: 10px;
+    font-size: xx-large;
+    
 }
 .prod1 {
     display: flex;
     flex-direction: column;
     padding: 5px;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .prod2 {
     text-align: center;
@@ -51,6 +56,8 @@ h1 {
     margin: 10px;
     justify-content: space-evenly;
     align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
 }
 .prod2 img{
     width: 300px;
@@ -81,7 +88,7 @@ h1 {
     border-radius: 30px;
 }
 .acompanhamentos div h6 {
-    font-size: large;
+    font-size: x-large;
 }
 @media(max-width:800px){
     .prod2 {
